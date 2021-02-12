@@ -28,11 +28,11 @@ function App() {
         <HeaderWithRouter />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/music' component={Music} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/lessons' component={Lessons} />
-          <Route exact path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
+          <Route path='/music' component={Music} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/lessons' component={Lessons} />
+          <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
       <Footer />
