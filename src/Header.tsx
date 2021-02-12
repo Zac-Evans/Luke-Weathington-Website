@@ -13,7 +13,7 @@ export default function Header(props: any) {
       <Navbar
         collapseOnSelect
         expand='lg'
-        sticky='top'
+        fixed='top'
         variant='dark'
         className='header'
       >
