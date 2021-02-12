@@ -15,7 +15,7 @@ export default function About() {
             sm={12}
             className='d-flex align-self-start justify-content-center'
           >
-            <Image fluid src={LukePicture} />
+            <Image src={LukePicture} />
           </Col>
           <Col
             xl={6}
