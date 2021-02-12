@@ -1,0 +1,44 @@
+.header {
+  background-color: #14213d;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: clamp(1.4rem, 6vw, 3rem);
+}
+
+.header-subtitle {
+  color: #fca311;
+  font-size: clamp(0.8rem, 3.5vw, 1.5rem);
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+
+  background-color: grey;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+Nav {
+  font-size: 26px;
+}
+
+/* .nav-link {
+  color: #e5e5e5 !important;
+}
+
+.nav-link:hover {
+  color: #fca311 !important;
+}
+
+.nav-link:hover {
+  color: #fca311 !important;
+} */
+
+.page-container {
+  max-width: 2000px;
+}
